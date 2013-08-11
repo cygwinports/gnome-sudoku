@@ -2,7 +2,7 @@ inherit gnome2
 
 NAME="gnome-sudoku"
 VERSION=3.8.1
-RELEASE=1
+RELEASE=2
 CATEGORY="Games"
 SUMMARY="GNOME Sudoku game"
 DESCRIPTION="Gnome Sudoku is based on the popular number-based logic puzzle in
@@ -11,3 +11,5 @@ can be played on screen or printed to take along. All games persist across
 sessions and you can resume any old game at any time, as well as replay any
 game you've already won. "
 REQUIRES="girepository-Gtk3.0"
+
+PATCH_URI="https://git.gnome.org/browse/gnome-sudoku/patch/src/lib/number_box.py?id=31de4e7"
