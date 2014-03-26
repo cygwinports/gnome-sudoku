@@ -11,3 +11,5 @@ can be played on screen or printed to take along. All games persist across
 sessions and you can resume any old game at any time, as well as replay any
 game you've already won. "
 REQUIRES="girepository-Gtk3.0"
+
+ARCH=noarch
